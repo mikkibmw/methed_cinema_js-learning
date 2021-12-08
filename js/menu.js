@@ -3,7 +3,7 @@ const openMenu = (nav, active) =>{
 };
 
 const closeMenu = (nav, active) =>{
-  nav.classList.remove(active)
+  nav.classList.remove(active);
 };
 
 
@@ -18,7 +18,7 @@ const slideMenu = ({openBtn, menu, classActiveMenu, closeTrigger}) =>{
 
   navigationClose.forEach((item)=>{
     item.addEventListener('click', ()=>{
-      closeMenu(navigator, classActiveMenu);
+      closeMenu(navigation, classActiveMenu);
     });
   })
 };
