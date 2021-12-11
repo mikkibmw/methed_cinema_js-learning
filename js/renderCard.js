@@ -18,7 +18,7 @@ const renderCard = async(data, type) =>{
 
     const link = document.createElement('a');
     if (key) link.href = `https://youtu.be/${key}`
-    link.className = 'other-films__link';
+    link.className = 'other-films__link tube';
     link.dataset.rating = item.vote_average || '-';
     const img = document.createElement('img')
     img.className = 'other-films__img'
